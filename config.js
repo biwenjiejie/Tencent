@@ -1,3 +1,3 @@
 var glConfig = {
-  requestUrl: './assets/info2.json' //本地
+  requestUrl: './assets/luck_draw_info.json' //本地
 };

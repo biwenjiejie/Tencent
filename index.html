@@ -15,8 +15,7 @@
     <script src="./assets/js/hammer.js"></script>
     <script src="./assets/js/Tdrag.js"></script>
     <script src="./assets/js/ItemDrag.js"></script>
-    
-<link rel="shortcut icon" href="favicon.ico"><link href="./css/index.css?59e25853f89147d68be2" rel="stylesheet"></head>
+<link rel="shortcut icon" href="favicon.ico"><link href="./css/index.css?7ea01252da6b34f15980" rel="stylesheet"></head>
 <body>
 <div class="page-wrap gl-border no-touch">
     
@@ -27,7 +26,9 @@
                 <div class="logo"></div>
                 <div class="light"></div>
             </div>
-            <div class="main-box"></div>
+            <div class="main-box">
+                <img class="main-gif" src="static/img/mian_pic.gif" alt="">
+            </div>
             <div class="btn-start J_btn_start"></div>
         </div>
     </div>
@@ -41,17 +42,17 @@
             
             <div class="gl-body-content gl-border">
                 <div class="gl-subject">以下是与公司相关的数字，请找出其中最大的：8.18、11.11、0700、237</div>
-                <div class="mun mun_1"></div>
-                <div class="mun mun_2"></div>
-                <div class="mun mun_3"></div>
-                <div class="mun mun_4"></div>
+                <div class="mun mun_1"><i class="state"></i></div>
+                <div class="mun mun_2"><i class="state"></i></div>
+                <div class="mun mun_3"><i class="state"></i></div>
+                <div class="mun mun_4"><i class="state"></i></div>
             </div>
             
             <div class="gl-penguin"></div>
             <div class="gl-people"></div>
             <div class="gl-btn gl-btn-pre">上一关</div>
             <div class="gl-btn gl-btn-notice J_btn_notice">提示</div>
-            <div class="gl-btn gl-btn-skip">跳过机会<span>[2/2]</span></div>
+            <div class="gl-btn gl-btn-skip">跳过机会<span>[<span class="skip-num">2</span>/2]</span></div>
         </div>
     </div>
     
@@ -80,7 +81,7 @@
             <div class="gl-people"></div>
             <div class="gl-btn gl-btn-pre">上一关</div>
             <div class="gl-btn gl-btn-notice J_btn_notice">提示</div>
-            <div class="gl-btn gl-btn-skip">跳过机会<span>[2/2]</span></div>
+            <div class="gl-btn gl-btn-skip">跳过机会<span>[<span class="skip-num">2</span>/2]</span></div>
         </div>
     </div>
     
@@ -102,6 +103,7 @@
                         <div class="btn btn-small J_btn_small"></div>
                         <div class="btn-text" id="page3_num">0</div>
                         <div class="btn btn-add J_btn_add"></div>
+                        <div class="state"></div>
                     </div>
                     <div class="row_2">
                         <div class="btn btn-clear J_btn_clear">清除</div>
@@ -114,7 +116,7 @@
             <div class="gl-people"></div>
             <div class="gl-btn gl-btn-pre">上一关</div>
             <div class="gl-btn gl-btn-notice J_btn_notice">提示</div>
-            <div class="gl-btn gl-btn-skip">跳过机会<span>[2/2]</span></div>
+            <div class="gl-btn gl-btn-skip">跳过机会<span>[<span class="skip-num">2</span>/2]</span></div>
         </div>
     </div>
     
@@ -130,7 +132,9 @@
                 <div class="gl-subject">正在与hr智能客服小t沟通，突然断电了，请帮忙重连</div>
                 <div class="CBS pa"></div>
                 <div class="computer pa"></div>
-                <div class="Table pa"></div>
+                <div class="Table pa">
+                    <div class="flower"></div>
+                </div>
                 <div class="TouchArea pa TouchAreaL">
                   <div class="spot"></div>
                 </div>
@@ -143,7 +147,7 @@
             <div class="gl-people"></div>
             <div class="gl-btn gl-btn-pre">上一关</div>
             <div class="gl-btn gl-btn-notice J_btn_notice">提示</div>
-            <div class="gl-btn gl-btn-skip">跳过机会<span>[2/2]</span></div>
+            <div class="gl-btn gl-btn-skip">跳过机会<span>[<span class="skip-num">2</span>/2]</span></div>
         </div>
     </div>
     
@@ -168,7 +172,7 @@
             <div class="gl-people"></div>
             <div class="gl-btn gl-btn-pre">上一关</div>
             <div class="gl-btn gl-btn-notice J_btn_notice">提示</div>
-            <div class="gl-btn gl-btn-skip">跳过机会<span>[2/2]</span></div>
+            <div class="gl-btn gl-btn-skip">跳过机会<span>[<span class="skip-num">2</span>/2]</span></div>
         </div>
     </div>
     
@@ -179,25 +183,25 @@
                 <div class="text"></div>
                 <div class="logo"></div>
                 <div class="hot"></div>
-                <div class="people"></div>
+                <div class="hr"></div>
                 <div class="text2">走到这一步的你，鹅厂“全智高手”非你莫属啦！</div>
                 <div class="des-box">
                     <div class="des-title">请在以下产品中，选择你印象最深刻的，即可开启抽奖~[可多选]</div>
                     <div class="des-select clear">
                         <div class="item fl">
-                            <label for="select_1"><input type="checkbox" class="select-box" id="select_1"><span>小T[连线HR]</span></label>
+                            <label for="select_1"><input type="checkbox" class="select-box" id="select_1"><span>小T[连线HR]HR智能助理机器人</span></label>
                         </div>
                         <div class="item fl">
                             <label for="select_2"><input type="checkbox" class="select-box" id="select_2"><span>招聘小助手</span></label>
                         </div>
                         <div class="item fl">
-                            <label for="select_3"><input type="checkbox" class="select-box" id="select_3"><span>自主仓</span></label>
+                            <label for="select_3"><input type="checkbox" class="select-box" id="select_3"><span>自主仓:为员工提供7*24小时便捷，高效的自主式hr服务</span></label>
                         </div>
                         <div class="item fl">
                             <label for="select_4"><input type="checkbox" class="select-box" id="select_4"><span>鹅知</span></label>
                         </div>
                         <div class="item fl">
-                            <label for="select_5"><input type="checkbox" class="select-box" id="select_5"><span>期待更多HR产品~</span></label>
+                            <label for="select_5"><input type="checkbox" class="select-box" id="select_5"><span>其他hr产品[i计算，小目标]</span></label>
                         </div>
                     </div>
                 </div>
@@ -205,7 +209,6 @@
             <div class="line"></div>
             <div class="circle"></div>
             <div class="go"></div>
-            <div class="btn"></div>
         </div>
     </div>
     
@@ -237,6 +240,44 @@
         </div>
     </div>
     
+    
+    <div class="gl-pop-wrap-lucky">
+        <div class="gl-pop">
+            <div class="gl-women"></div>
+            <div class="title"></div>
+            <div class="btn-close"></div>
+            <div class="content">
+                <div class="detail">别灰心，好运在后头</div>
+                <div class="tip">
+                    <div>Tips:</div>
+                    <div class="tip-des">
+                        <div>感谢您的支持！所有用户仅供一次抽奖机会，谢谢！</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <div class="gl-ad-pic">
+        <div class="btn-close">x</div>
+        <div class="ad-time">5</div>
+        <img class="pic" alt="">
+    </div>
+    
+    
+    <div class="load-box">
+        <div class="loader">
+            <div class="logo-loading">
+                <div class="logo-bg"></div>
+                <div class="logo-loading-box">
+                    <div class="loading-h J_loading_h"></div>
+                </div>
+            </div>
+            <div class="load-text"><span id="loading"></span></div>
+        </div>
+    </div>
 </div>
-<script type="text/javascript" src="js/common59e25.chunk.js?59e25853f89147d68be2"></script><script type="text/javascript" src="js/index59e25.js?59e25853f89147d68be2"></script></body>
+<script type="text/javascript" src="js/common7ea01.chunk.js?7ea01252da6b34f15980"></script><script type="text/javascript" src="js/index7ea01.js?7ea01252da6b34f15980"></script></body>
 </html>
