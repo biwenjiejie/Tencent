@@ -315,7 +315,8 @@ body {
     height: 8.4rem;
     left: 0;
     padding-left: 0.66667rem;
-    top: 2.66667rem; }
+    top: 2.66667rem;
+    z-index: 10; }
 
 @-webkit-keyframes bg-animation {
   0% {
@@ -512,10 +513,7 @@ body {
   position: absolute;
   background-color: white;
   z-index: 100;
-  background-color: #fff;
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAu4AAAAmBAMAAABpFwMJAAAAGFBMVEUAAACk7P6k7P6k7P6k7P6k7P6k7P7V8/3xx+vUAAAAB3RSTlMAQICgcMAYKtZu6wAAAJ1JREFUaN7t0KENQjEYhdEGg25YgDRhAMIKTMASzwL7C1Lb/KoGcc8V133mtO9Y9hjFbqPaa55+oz/auy3rrdipVbvO02/0Z+7cg3ru3JN67tyTeu7ck3ru3JN67tyTeu7ck3ru3JN67tyTeu7ck3ru3JN67tyTeu7ck3ru3JN67tyTeu7ck3ru3JN67v9y//Rlz17s0qvd5+k3+uMHn/6Gi96zhusAAAAASUVORK5CYII=);
-  background-size: 100% auto;
-  background-position: center center; }
+  background-color: #fff; }
   .load-box .loader {
     position: absolute;
     left: 50%;
@@ -523,8 +521,8 @@ body {
     transform: translate(-50%, -50%); }
   .load-box .logo-loading {
     position: relative;
-    height: 3.88rem;
-    width: 4.02667rem; }
+    height: 3.06667rem;
+    width: 2.96rem; }
     .load-box .logo-loading .logo-bg {
       width: 100%;
       height: 100%;
@@ -536,10 +534,10 @@ body {
       position: absolute;
       left: 0;
       right: 0;
-      bottom: 0.66667rem;
+      bottom: 0.56rem;
       margin: auto;
-      height: 1.94667rem;
-      width: 1.62667rem; }
+      height: 1.48rem;
+      width: 1.24rem; }
       .load-box .logo-loading .logo-loading-box .loading-h {
         position: absolute;
         bottom: 0;
@@ -574,7 +572,8 @@ body {
     right: 0.13333rem;
     top: 0.13333rem;
     border-radius: 50%;
-    cursor: pointer; }
+    cursor: pointer;
+    z-index: 10; }
   .gl-ad-pic .ad-time {
     position: absolute;
     width: 0.53333rem;
@@ -586,8 +585,15 @@ body {
     right: 0.13333rem;
     top: 0.13333rem;
     border-radius: 50%;
-    cursor: pointer; }
+    cursor: pointer;
+    z-index: 11; }
   .gl-ad-pic .pic {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
     width: 100%; }
 
 .page-wrap {
@@ -1046,7 +1052,7 @@ body {
               vertical-align: middle; }
       .page-wrap .pages.page-lottery .lottery-box .line {
         position: absolute;
-        top: 7.46667rem;
+        top: 7.2rem;
         left: 0.4rem;
         width: 9.08rem;
         height: 9.08rem;
@@ -1054,7 +1060,7 @@ body {
         background-size: 100% 100%; }
       .page-wrap .pages.page-lottery .lottery-box .circle {
         position: absolute;
-        top: 8.8rem;
+        top: 8.53333rem;
         left: 1.66667rem;
         width: 6.61333rem;
         height: 6.61333rem;
@@ -1062,7 +1068,7 @@ body {
         background-size: 100% 100%; }
       .page-wrap .pages.page-lottery .lottery-box .go {
         position: absolute;
-        top: 10.53333rem;
+        top: 10.26667rem;
         left: 3.92rem;
         width: 2.10667rem;
         height: 2.64rem;
