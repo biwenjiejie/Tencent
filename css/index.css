@@ -560,25 +560,26 @@ body {
   top: 0;
   bottom: 0;
   z-index: 100;
-  display: none; }
-  .gl-ad-pic .btn-close {
+  display: none;
+  /*.btn-close{
     position: absolute;
-    width: 0.53333rem;
-    height: 0.53333rem;
-    line-height: 0.53333rem;
+    width: px2rem(50);
+    height: px2rem(50);
+    line-height: px2rem(50);
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0,0,0,0.9);
     color: #fff;
-    right: 0.13333rem;
-    top: 0.13333rem;
+    right: px2rem(10);
+    top: px2rem(10);
     border-radius: 50%;
     cursor: pointer;
-    z-index: 10; }
+    z-index: 10;
+  }*/ }
   .gl-ad-pic .ad-time {
     position: absolute;
-    width: 0.53333rem;
-    height: 0.53333rem;
-    line-height: 0.53333rem;
+    width: 0.66667rem;
+    height: 0.66667rem;
+    line-height: 0.66667rem;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.9);
     color: #fff;
@@ -586,6 +587,7 @@ body {
     top: 0.13333rem;
     border-radius: 50%;
     cursor: pointer;
+    font-size: 0.4rem;
     z-index: 11; }
   .gl-ad-pic .pic {
     position: absolute;
@@ -897,6 +899,8 @@ body {
             left: 1.46667rem; }
           .page-wrap .pages.page-3 .control-box .row_2 .btn.btn-sure {
             left: 5.46667rem; }
+    .page-wrap .pages.page-4 .gl-pass-box .gl-penguin {
+      display: none; }
     .page-wrap .pages.page-4 .CBS {
       width: 4.14667rem;
       height: 2.97333rem;
@@ -905,7 +909,7 @@ body {
       background-size: 100% 100%;
       left: 0;
       right: 0;
-      top: 1.46667rem;
+      top: 1.33333rem;
       margin: 0 auto; }
     .page-wrap .pages.page-4 .computer {
       width: 4.14667rem;
@@ -915,7 +919,7 @@ body {
       background-size: 100% auto;
       left: 0;
       right: 0;
-      top: 1.46667rem;
+      top: 1.33333rem;
       margin: 0 auto;
       display: none; }
     .page-wrap .pages.page-4 .Table {
@@ -926,7 +930,7 @@ body {
       background-size: 100% 100%;
       left: 0.4rem;
       right: 0;
-      top: 2.33333rem;
+      top: 2.2rem;
       margin: 0 auto; }
       .page-wrap .pages.page-4 .Table .flower {
         position: absolute;
@@ -946,10 +950,10 @@ body {
         background-size: 100% 100%; }
     .page-wrap .pages.page-4 .TouchAreaL {
       left: 2.74667rem;
-      top: 4.96rem; }
+      top: 4.82667rem; }
     .page-wrap .pages.page-4 .TouchAreaR {
       left: 5.33333rem;
-      top: 7.70667rem; }
+      top: 7.57333rem; }
     .page-wrap .pages.page-5 .champagne-box {
       position: relative;
       height: 7.33333rem; }
@@ -1072,5 +1076,7 @@ body {
         left: 3.92rem;
         width: 2.10667rem;
         height: 2.64rem;
-        background-image: url(../static/img/lottery_go.png);
+        background-image: url(../static/img/lottery_go_gray.png);
         background-size: 100% 100%; }
+        .page-wrap .pages.page-lottery .lottery-box .go.on {
+          background-image: url(../static/img/lottery_go.png); }
