@@ -498,7 +498,7 @@ body {
       position: absolute;
       left: 0;
       top: 1.8rem;
-      width: 6.13333rem;
+      width: 5.86667rem;
       color: #fff;
       font-size: 0.45333rem;
       padding-left: 1.33333rem; }
@@ -990,6 +990,7 @@ body {
         left: 0.93333rem;
         width: 8.33333rem;
         height: 4.04rem;
+        z-index: 10;
         margin: auto;
         background-image: url(../static/img/lottery_box.png);
         background-size: 100% 100%; }
