@@ -158,7 +158,7 @@ a:hover {
 @charset "UTF-8";
 @font-face {
   font-family: "TTTGB";
-  src: url(//cdn.m.tencent.com/hr/h5/maytencent/static/fonts/TTTGB.ttf); }
+  src: url(../static/fonts/TTTGB.ttf); }
 
 /*@font-face {
   font-family: "SOURCEHANSANSCN-REGULAR_0";
@@ -184,7 +184,7 @@ body {
   margin: auto;
   font-family: "TTTGB";
   background-color: #fff;
-  background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/bg2.png);
+  background-image: url(../static/img/bg2.png);
   background-size: 100% auto;
   background-position: center center; }
 
@@ -208,7 +208,7 @@ body {
     margin: auto;
     width: 100%;
     height: 2.25333rem;
-    background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gl_box1.png);
+    background-image: url(../static/img/gl_box1.png);
     background-size: 100% 100%; }
     .gl-pass-box .top-pic:after {
       content: '';
@@ -217,7 +217,7 @@ body {
       top: 100%;
       width: 100%;
       height: 400%;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gl_box2.png);
+      background-image: url(../static/img/gl_box2.png);
       background-size: 100% 100%; }
     .gl-pass-box .top-pic:before {
       content: '';
@@ -226,7 +226,7 @@ body {
       top: 0.02667rem;
       width: 1.6rem;
       height: 1.68rem;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/light.gif);
+      background-image: url(../static/img/light.gif);
       background-size: 100% 100%; }
   .gl-pass-box .bottom-pic {
     position: absolute;
@@ -235,7 +235,7 @@ body {
     margin: auto;
     width: 100%;
     height: 2.25333rem;
-    background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gl_box3.png);
+    background-image: url(../static/img/gl_box3.png);
     background-size: 100% 100%; }
     .gl-pass-box .bottom-pic:after {
       content: '';
@@ -244,7 +244,7 @@ body {
       bottom: 100%;
       width: 100%;
       height: 400%;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gl_box2.png);
+      background-image: url(../static/img/gl_box2.png);
       background-size: 100% 100%; }
   .gl-pass-box .gl-people {
     position: absolute;
@@ -252,7 +252,7 @@ body {
     top: 0.08rem;
     width: 2.16rem;
     height: 1.97333rem;
-    background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gl_people.gif);
+    background-image: url(../static/img/gl_people.gif);
     background-size: 100% 100%;
     background-position: center center; }
   .gl-pass-box .gl-penguin {
@@ -261,7 +261,7 @@ body {
     bottom: 3.14667rem;
     width: 4.96rem;
     height: 0.78667rem;
-    background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gl_penguin.png);
+    background-image: url(../static/img/gl_penguin.png);
     background-size: 100% 100%; }
   .gl-pass-box .gl-btn {
     position: absolute;
@@ -275,21 +275,21 @@ body {
     .gl-pass-box .gl-btn.gl-btn-pre {
       left: 1.36rem;
       width: 1.76rem;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gl_btn_1.png); }
+      background-image: url(../static/img/gl_btn_1.png); }
       .gl-pass-box .gl-btn.gl-btn-pre:active {
         width: 1.68rem;
         height: 0.66667rem; }
     .gl-pass-box .gl-btn.gl-btn-notice {
       left: 3.30667rem;
       width: 1.64rem;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gl_btn_2.png); }
+      background-image: url(../static/img/gl_btn_2.png); }
       .gl-pass-box .gl-btn.gl-btn-notice:active {
         width: 1.56rem;
         height: 0.66667rem; }
     .gl-pass-box .gl-btn.gl-btn-skip {
       left: 5.2rem;
       width: 3.25333rem;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gl_btn_3.png); }
+      background-image: url(../static/img/gl_btn_3.png); }
       .gl-pass-box .gl-btn.gl-btn-skip span {
         color: #FDEE1E; }
       .gl-pass-box .gl-btn.gl-btn-skip:active {
@@ -356,9 +356,9 @@ body {
   width: 100%;
   display: none; }
   .gl-pop-wrap.success .gl-pop {
-    background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gl_pop_box_succes.png); }
+    background-image: url(../static/img/gl_pop_box_succes.png); }
     .gl-pop-wrap.success .gl-pop .gl-women {
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/hr.gif); }
+      background-image: url(../static/img/hr.gif); }
   .gl-pop-wrap.success .btn-list .btn-continue {
     display: none !important; }
   .gl-pop-wrap.success .btn-list .btn-replay {
@@ -370,7 +370,7 @@ body {
     width: 8.48rem;
     height: 5.36rem;
     margin: auto;
-    background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gl_pop_box.png);
+    background-image: url(../static/img/gl_pop_box.png);
     background-size: 100% 100%; }
     .gl-pop-wrap .gl-pop .gl-pop-light {
       position: absolute;
@@ -378,7 +378,7 @@ body {
       top: -0.4rem;
       width: 1.45333rem;
       height: 1.32rem;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gl_pop_box_light.png);
+      background-image: url(../static/img/gl_pop_box_light.png);
       background-size: 100% 100%; }
     .gl-pop-wrap .gl-pop .title {
       position: absolute;
@@ -392,7 +392,7 @@ body {
       position: absolute;
       width: 4.13333rem;
       height: 3.6rem;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/hr.gif);
+      background-image: url(../static/img/hr.gif);
       background-size: 100% 100%;
       right: 0;
       bottom: 0; }
@@ -421,7 +421,7 @@ body {
       .gl-pop-wrap .btn-list .btn.btn-continue {
         display: inline-block;
         width: 4.02667rem;
-        background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gl_btn_continue.png); }
+        background-image: url(../static/img/gl_btn_continue.png); }
         .gl-pop-wrap .btn-list .btn.btn-continue:active {
           width: 3.94667rem;
           height: 0.93333rem; }
@@ -430,7 +430,7 @@ body {
         width: 2.32rem;
         text-align: left;
         padding-left: 0.93333rem;
-        background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gl_btn_replay.png);
+        background-image: url(../static/img/gl_btn_replay.png);
         display: none; }
         .gl-pop-wrap .btn-list .btn.btn-replay:active {
           width: 2.24rem;
@@ -440,7 +440,7 @@ body {
         width: 2.08rem;
         text-align: left;
         padding-left: 0.32rem;
-        background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gl_btn_next.png);
+        background-image: url(../static/img/gl_btn_next.png);
         display: none; }
         .gl-pop-wrap .btn-list .btn.btn-next:active {
           width: 2rem;
@@ -456,17 +456,17 @@ body {
   width: 100%;
   display: none; }
   .gl-pop-wrap-lucky.success .gl-pop .gl-women {
-    background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/lottery_people_1.png); }
+    background-image: url(../static/img/lottery_people_1.png); }
   .gl-pop-wrap-lucky.success .gl-pop .title {
     width: 6.22667rem;
     height: 1.61333rem;
-    background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/lottery_1.png); }
+    background-image: url(../static/img/lottery_1.png); }
   .gl-pop-wrap-lucky .gl-pop {
     position: relative;
     width: 8rem;
     height: 4.98667rem;
     margin: auto;
-    background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/lottery_pop.png);
+    background-image: url(../static/img/lottery_pop.png);
     background-size: 100% 100%; }
     .gl-pop-wrap-lucky .gl-pop .btn-close {
       position: absolute;
@@ -475,7 +475,7 @@ body {
       width: 0.65333rem;
       height: 0.65333rem;
       margin: auto;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/lottery_close.png);
+      background-image: url(../static/img/lottery_close.png);
       background-size: 100% 100%;
       cursor: pointer; }
     .gl-pop-wrap-lucky .gl-pop .title {
@@ -484,13 +484,13 @@ body {
       width: 5.36rem;
       height: 1.48rem;
       margin: auto;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/lottery_2.png);
+      background-image: url(../static/img/lottery_2.png);
       background-size: 100% 100%; }
     .gl-pop-wrap-lucky .gl-pop .gl-women {
       position: absolute;
       width: 4.13333rem;
       height: 3.6rem;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/lottery_people_2.png);
+      background-image: url(../static/img/lottery_people_2.png);
       background-size: 100% 100%;
       right: -0.93333rem;
       bottom: 0; }
@@ -527,7 +527,7 @@ body {
       width: 100%;
       height: 100%;
       position: absolute;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/loading.png);
+      background-image: url(../static/img/loading.png);
       background-size: 100% 100%;
       z-index: 10; }
     .load-box .logo-loading .logo-loading-box {
@@ -543,7 +543,7 @@ body {
         bottom: 0;
         width: 100%;
         height: 0%;
-        background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/loading_h.png);
+        background-image: url(../static/img/loading_h.png);
         background-size: 100% auto;
         background-position: center bottom; }
   .load-box .load-text {
@@ -600,11 +600,11 @@ body {
     width: 100%;
     background-size: 100%; }
     .gl-ad-pic .pic.pic_1 {
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/ps_1.png); }
+      background-image: url(../static/img/ps_1.png); }
     .gl-ad-pic .pic.pic_2 {
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/ps_2.png); }
+      background-image: url(../static/img/ps_2.png); }
     .gl-ad-pic .pic.pic_3 {
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/ps_3.png); }
+      background-image: url(../static/img/ps_3.png); }
 
 .page-wrap {
   position: relative;
@@ -620,7 +620,7 @@ body {
     margin: auto;
     width: 9.78667rem;
     height: 2.36rem;
-    background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/line.png);
+    background-image: url(../static/img/line.png);
     background-size: 100% 100%; }
   .page-wrap .pages {
     position: absolute;
@@ -645,7 +645,7 @@ body {
       width: 8.62667rem;
       height: 5.13333rem;
       background-size: 100% 100%;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/box.png); }
+      background-image: url(../static/img/box.png); }
       .page-wrap .pages.page-home .logo-box .logo-text {
         position: absolute;
         left: 1.33333rem;
@@ -653,7 +653,7 @@ body {
         width: 6.58667rem;
         height: 2.05333rem;
         background-size: 100% 100%;
-        background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/text.png); }
+        background-image: url(../static/img/text.png); }
       .page-wrap .pages.page-home .logo-box .logo {
         position: absolute;
         right: 1.06667rem;
@@ -661,7 +661,7 @@ body {
         width: 1.21333rem;
         height: 1.2rem;
         background-size: 100% 100%;
-        background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/logo.png); }
+        background-image: url(../static/img/logo.png); }
       .page-wrap .pages.page-home .logo-box .light {
         position: absolute;
         left: 0rem;
@@ -669,7 +669,7 @@ body {
         width: 1.96rem;
         height: 1.88rem;
         background-size: 100% 100%;
-        background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/light.gif); }
+        background-image: url(../static/img/light.gif); }
     .page-wrap .pages.page-home .main-box {
       position: absolute;
       left: 0.93333rem;
@@ -678,7 +678,7 @@ body {
       width: 7.73333rem;
       height: 6.77333rem;
       background-size: 100% 100%;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/mian_pic.png); }
+      background-image: url(../static/img/mian_pic.png); }
       .page-wrap .pages.page-home .main-box .main-gif {
         position: absolute;
         top: -1.73333rem;
@@ -695,7 +695,7 @@ body {
       width: 5.62667rem;
       height: 1.37333rem;
       background-size: 100% 100%;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/btn_start.png); }
+      background-image: url(../static/img/btn_start.png); }
       .page-wrap .pages.page-home .btn-start:active {
         width: 5.48rem;
         height: 1.28rem;
@@ -709,7 +709,7 @@ body {
       width: 2.16rem;
       top: 1.78667rem;
       left: 3.54667rem;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/1.png); }
+      background-image: url(../static/img/1.png); }
       .page-wrap .pages.page-1 .mun_1 i {
         display: none;
         position: absolute;
@@ -720,12 +720,12 @@ body {
         margin: auto;
         background-size: 100% auto;
         background-repeat: no-repeat;
-        background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gl_err.png); }
+        background-image: url(../static/img/gl_err.png); }
     .page-wrap .pages.page-1 .mun_2 {
       width: 3.46667rem;
       top: 4.02667rem;
       left: 0.57333rem;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/818.png); }
+      background-image: url(../static/img/818.png); }
       .page-wrap .pages.page-1 .mun_2 i {
         display: none;
         position: absolute;
@@ -736,12 +736,12 @@ body {
         margin: auto;
         background-size: 100% auto;
         background-repeat: no-repeat;
-        background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gl_success.png); }
+        background-image: url(../static/img/gl_success.png); }
     .page-wrap .pages.page-1 .mun_3 {
       width: 2.46667rem;
       top: 3.73333rem;
       left: 6.37333rem;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/700.png); }
+      background-image: url(../static/img/700.png); }
       .page-wrap .pages.page-1 .mun_3 i {
         display: none;
         position: absolute;
@@ -752,12 +752,12 @@ body {
         margin: auto;
         background-size: 100% auto;
         background-repeat: no-repeat;
-        background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gl_err.png); }
+        background-image: url(../static/img/gl_err.png); }
     .page-wrap .pages.page-1 .mun_4 {
       width: 1.04rem;
       top: 6.6rem;
       left: 4.74667rem;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/237.png); }
+      background-image: url(../static/img/237.png); }
       .page-wrap .pages.page-1 .mun_4 i {
         display: none;
         position: absolute;
@@ -768,11 +768,11 @@ body {
         margin: auto;
         background-size: 100% auto;
         background-repeat: no-repeat;
-        background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gl_err.png); }
+        background-image: url(../static/img/gl_err.png); }
     .page-wrap .pages.page-2 .peopleImg {
       width: 6.04rem;
       height: 5.02667rem;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/people.png);
+      background-image: url(../static/img/people.png);
       background-repeat: no-repeat;
       background-size: 100% 100%;
       top: 0;
@@ -793,7 +793,7 @@ body {
       .page-wrap .pages.page-2 .Tdrag_Box .resumeImg_ {
         width: 1.36rem;
         height: 2.08rem;
-        background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/resume.png);
+        background-image: url(../static/img/resume.png);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         top: 3.33333rem;
@@ -802,7 +802,7 @@ body {
       .page-wrap .pages.page-2 .Tdrag_Box .gk_page {
         width: 1.36rem;
         height: 2.06667rem;
-        background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gk_page.png);
+        background-image: url(../static/img/gk_page.png);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         z-index: 3; }
@@ -827,7 +827,7 @@ body {
       width: 9.4rem;
       height: 5.72rem;
       margin: 0.4rem auto 0 auto;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/page3_devices.png);
+      background-image: url(../static/img/page3_devices.png);
       background-size: 100% 100%; }
       .page-wrap .pages.page-3 .device-box .leaf {
         position: absolute;
@@ -835,7 +835,7 @@ body {
         top: 50%;
         width: 0.81333rem;
         height: 0.70667rem;
-        background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/page3_leaf.png);
+        background-image: url(../static/img/page3_leaf.png);
         background-size: 100% 100%; }
     .page-wrap .pages.page-3 .control-box {
       position: absolute;
@@ -854,7 +854,7 @@ body {
           z-index: 1; }
         .page-wrap .pages.page-3 .control-box .row_1 .btn-small {
           display: inline-block;
-          background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/page3_left.png);
+          background-image: url(../static/img/page3_left.png);
           left: 2.66667rem; }
           .page-wrap .pages.page-3 .control-box .row_1 .btn-small:active {
             width: 0.53333rem;
@@ -877,13 +877,13 @@ body {
           background-size: 100% auto;
           background-repeat: no-repeat; }
           .page-wrap .pages.page-3 .control-box .row_1 .state.err {
-            background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gl_err.png); }
+            background-image: url(../static/img/gl_err.png); }
           .page-wrap .pages.page-3 .control-box .row_1 .state.success {
-            background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/gl_success.png); }
+            background-image: url(../static/img/gl_success.png); }
         .page-wrap .pages.page-3 .control-box .row_1 .btn-add {
           left: 5.73333rem;
           display: inline-block;
-          background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/page3_right.png); }
+          background-image: url(../static/img/page3_right.png); }
           .page-wrap .pages.page-3 .control-box .row_1 .btn-add:active {
             width: 0.53333rem;
             height: 0.68rem; }
@@ -912,7 +912,7 @@ body {
     .page-wrap .pages.page-4 .CBS {
       width: 4.14667rem;
       height: 2.97333rem;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/C_B_Screen.png);
+      background-image: url(../static/img/C_B_Screen.png);
       background-repeat: no-repeat;
       background-size: 100% 100%;
       left: 0;
@@ -922,7 +922,7 @@ body {
     .page-wrap .pages.page-4 .computer {
       width: 4.14667rem;
       height: 2.97333rem;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/Computer.gif);
+      background-image: url(../static/img/Computer.gif);
       background-repeat: no-repeat;
       background-size: 100% auto;
       left: 0;
@@ -933,7 +933,7 @@ body {
     .page-wrap .pages.page-4 .Table {
       width: 8.33333rem;
       height: 6.12rem;
-      background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/Table.png);
+      background-image: url(../static/img/Table.png);
       background-repeat: no-repeat;
       background-size: 100% 100%;
       left: 0.4rem;
@@ -946,14 +946,14 @@ body {
         height: 1.6rem;
         right: 0;
         bottom: 0;
-        background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/flower.gif);
+        background-image: url(../static/img/flower.gif);
         background-size: 100% 100%; }
     .page-wrap .pages.page-4 .TouchArea {
       padding: 0.4rem; }
       .page-wrap .pages.page-4 .TouchArea .spot {
         width: 0.30667rem;
         height: 0.32rem;
-        background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/spot.png);
+        background-image: url(../static/img/spot.png);
         background-repeat: no-repeat;
         background-size: 100% 100%; }
     .page-wrap .pages.page-4 .TouchAreaL {
@@ -969,10 +969,10 @@ body {
         position: absolute;
         width: 1.29333rem;
         height: 3.96rem;
-        background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/page5_champagne.png);
+        background-image: url(../static/img/page5_champagne.png);
         background-size: 100% 100%; }
         .page-wrap .pages.page-5 .champagne-box .champagne.open {
-          background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/page5_champagne_on.gif); }
+          background-image: url(../static/img/page5_champagne_on.gif); }
         .page-wrap .pages.page-5 .champagne-box .champagne:nth-of-type(1) {
           top: -8%;
           left: 20%; }
@@ -1000,7 +1000,7 @@ body {
         height: 4.04rem;
         z-index: 10;
         margin: auto;
-        background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/lottery_box.png);
+        background-image: url(../static/img/lottery_box.png);
         background-size: 100% 100%;
         /* .text2{
             position: absolute;
@@ -1024,7 +1024,7 @@ body {
           top: 0.4rem;
           width: 5.25333rem;
           height: 1.62667rem;
-          background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/lottery_text.png);
+          background-image: url(../static/img/lottery_text.png);
           background-size: 100% 100%; }
         .page-wrap .pages.page-lottery .lottery-box .box .logo {
           position: absolute;
@@ -1032,7 +1032,7 @@ body {
           top: 1.01333rem;
           width: 1.16rem;
           height: 1.14667rem;
-          background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/lottery_logo.png);
+          background-image: url(../static/img/lottery_logo.png);
           background-size: 100% 100%; }
         .page-wrap .pages.page-lottery .lottery-box .box .hot {
           position: absolute;
@@ -1040,7 +1040,7 @@ body {
           top: -0.4rem;
           width: 2.2rem;
           height: 2.66667rem;
-          background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/lottery_people.gif);
+          background-image: url(../static/img/lottery_people.gif);
           background-size: 100% 100%; }
         .page-wrap .pages.page-lottery .lottery-box .box .des-box {
           position: absolute;
@@ -1073,7 +1073,7 @@ body {
         left: 0.4rem;
         width: 9.08rem;
         height: 9.08rem;
-        background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/lottery_line.png);
+        background-image: url(../static/img/lottery_line.png);
         background-size: 100% 100%; }
       .page-wrap .pages.page-lottery .lottery-box .circle {
         position: absolute;
@@ -1081,7 +1081,7 @@ body {
         left: 1.66667rem;
         width: 6.61333rem;
         height: 6.61333rem;
-        background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/lottery_circle.png);
+        background-image: url(../static/img/lottery_circle.png);
         background-size: 100% 100%; }
       .page-wrap .pages.page-lottery .lottery-box .go {
         position: absolute;
@@ -1089,7 +1089,7 @@ body {
         left: 3.89333rem;
         width: 2.10667rem;
         height: 2.64rem;
-        background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/lottery_go_gray.png);
+        background-image: url(../static/img/lottery_go_gray.png);
         background-size: 100% 100%; }
         .page-wrap .pages.page-lottery .lottery-box .go.on {
-          background-image: url(//cdn.m.tencent.com/hr/h5/maytencent/static/img/lottery_go.png); }
+          background-image: url(../static/img/lottery_go.png); }
