@@ -461,6 +461,10 @@ body {
     width: 6.22667rem;
     height: 1.61333rem;
     background-image: url(../static/img/lottery_1.png); }
+  .gl-pop-wrap-lucky.successed .gl-pop .title {
+    width: 7.45333rem;
+    height: 1.24rem;
+    background-image: url(../static/img/lottery_ed.png); }
   .gl-pop-wrap-lucky .gl-pop {
     position: relative;
     width: 8rem;
