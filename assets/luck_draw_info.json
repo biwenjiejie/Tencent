@@ -1,32 +1,8 @@
-[
-  {
-    "Level": 0,
-    "prizeInfo": "现金9999",
-    "prizeLevel": "谢谢参与"
+{
+  "code":"SUCCESS",
+  "data":{
+    "status":"can_prize",
+    "serialNumber":6
   },
-  {
-    "Level": 1,
-    "prizeInfo": "现金9999",
-    "prizeLevel": "一等奖"
-  },
-  {
-    "Level": 2,
-    "prizeInfo": "现金8888",
-    "prizeLevel": "二等奖"
-  },
-  {
-    "Level": 3,
-    "prizeInfo": "现金7777",
-    "prizeLevel": "三等奖"
-  },
-  {
-    "Level": 4,
-    "prizeInfo": "现金6666",
-    "prizeLevel": "四等奖"
-  },
-  {
-    "Level": 5,
-    "prizeInfo": "现金5555",
-    "prizeLevel": "五等奖"
-  }
-]
+  "failMessage":null
+}
