@@ -1,7 +1,7 @@
 {
   "code":"SUCCESS",
   "data":{
-    "status":"already_prize",
+    "status":"can_prize",
     "serialNumber":6
   },
   "failMessage":null
